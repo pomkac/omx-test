@@ -21,7 +21,7 @@
 #include <OMX_Types.h>
 #include <OMX_Audio.h>
 
-#include <bcm_host.h>
+//#include <bcm_host.h>
 #include <OMX_Broadcom.h>
 
 #define ALIGN(x, y) (((x) + ((y) - 1)) & ~((y) - 1))
@@ -310,7 +310,7 @@ int main(int argc, char** argv) {
 	int nPorts;
 	int i, n;
 
-	bcm_host_init();
+	//bcm_host_init();
 
 	fprintf(stderr, "Thread id is %p\n", pthread_self());
 	if(argc < 2){

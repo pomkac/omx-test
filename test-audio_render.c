@@ -1,4 +1,5 @@
 /**
+/**
    Based on code
    Copyright (C) 2007-2009 STMicroelectronics
    Copyright (C) 2007-2009 Nokia Corporation and/or its subsidiary(-ies).
@@ -21,7 +22,7 @@
 #include <OMX_Types.h>
 #include <OMX_Audio.h>
 
-#include <bcm_host.h>
+//#include <bcm_host.h>
 #include <OMX_Broadcom.h>
 
 OMX_ERRORTYPE err;
@@ -295,7 +296,7 @@ int main(int argc, char** argv) {
 	int nPorts;
 	int n;
 
-	bcm_host_init();
+	//bcm_host_init();
 
 	fprintf(stderr, "Thread id is %p\n", pthread_self());
 	if(argc < 2){
