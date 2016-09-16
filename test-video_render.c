@@ -22,7 +22,7 @@
 #include <OMX_Audio.h>
 
 //#include <bcm_host.h>
-#include <OMX_Broadcom.h>
+//#include <OMX_Broadcom.h>
 
 #define ALIGN(x, y) (((x) + ((y) - 1)) & ~((y) - 1))
 
